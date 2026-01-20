@@ -12,8 +12,8 @@ const App = () => {
   
   const zpRef = useRef(null);
 
-  const appID = 709642572; 
-  const serverSecret = "27e3e18214166158ad39a2cbed2e6f49";
+  const appID = YOUR_appID; 
+  const serverSecret = "YOUR_SECRETE_CODE";
 
   useEffect(() => {
     const initZego = async () => {
